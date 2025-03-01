@@ -1,0 +1,65 @@
+.banner{
+    height: 500px;
+    
+    position: relative;
+}
+.banner img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.banner-details{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    top: 30%;
+    padding: 20px;
+}
+.banner-overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0,0,.5);
+}
+
+.card-item{
+    height: 230px;
+    position: relative;
+    margin-top: 20px;
+    overflow: hidden;
+
+}
+.card-item img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.card-details{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    z-index: 1;
+    color: white;
+    top: -100%;
+}
+.item-overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0,0,0,.5);
+    top: 100%;
+}
+.card-item:hover .item-overlay{
+    top: 0;
+    transition: 2s;
+}
+
+.card-item:hover .card-details{
+    top: 30%;
+    transition: 2s;
+}
