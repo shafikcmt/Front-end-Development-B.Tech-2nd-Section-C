@@ -1,0 +1,84 @@
+h1{
+    text-align: center;
+    padding: 10px;
+    background: yellow;
+}
+.tc{
+    text-align: center;
+}
+.tr{
+    text-align: right;
+}
+.tl{
+    text-align: left;
+}
+.tj{
+    text-align: justify;
+    text-indent: 100px; /* Space First Line */
+    line-height: 30px;  /* Space Between Line */
+    word-spacing: 20px;  /* Space Between word */
+    letter-spacing: 10px; /* Space Between Letter */
+}
+.td{
+    text-decoration-line: overline underline line-through;
+    text-decoration-style: solid;
+    text-decoration-color: red;
+    text-decoration-thickness: 5px;
+
+    text-decoration: 2px dotted overline green;
+}
+.tsh{
+    text-shadow: 2px 2px 3px blue;
+}
+.icons{
+    width: 400px;
+    height: 200px;
+    margin:  0 auto;
+}
+
+.icons i{
+    font-size: 15px;
+    color: red;
+    border: 3px solid green;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 30px;
+}
+.chess-board{
+    width: 800px;
+    margin: 0 auto;
+    background-color: skyblue;
+    padding: 10px;
+    height: 900px;
+}
+.black-box{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    float: left;
+}
+.white-box{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    float: left;
+}
+
+.chess-container{
+    width: 800px;
+    padding: 10px;
+    background-color: skyblue;
+    display: grid;
+    grid-template-columns: repeat(8,100px);
+    grid-template-rows: repeat(8,100px);
+}
+
+.black{
+    background-color: black;
+}
+.white{ 
+    background-color: white;
+}
+
