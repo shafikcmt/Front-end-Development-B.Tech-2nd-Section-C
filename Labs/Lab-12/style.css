@@ -1,0 +1,45 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+.btn{
+    border: 1px solid red;
+    padding: 10px;
+}
+.btn-primary{
+    background-color: blue;
+}
+#displayBoard{
+    padding: 20px;
+    background-color: skyblue;
+    border: 5px solid red;
+    margin: 0 auto;
+}
+
+.box1{
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 30px;
+    float: left;
+}
+.black{
+    background-color: black;
+    color: white;
+}
+.white{
+    background-color: white;
+    color: black;
+}
+
+/* 
+    important topics
+    ---------------
+    Bootstrap - card, grid, components(button,bg and text color clasess) , flex-box, form
+
+    Javascript - spread and rest operator, advanced function concept like arrow and IIFE function, promise, dom, array methods (map,filter,reduce), events , setTimeout and setInterval
+
+    GetHub - git-add, git-commit , git-push, git-branching,git-ignore
+*/
